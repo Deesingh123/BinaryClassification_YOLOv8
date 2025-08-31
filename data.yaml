@@ -1,0 +1,11 @@
+train: /content/train/images  # Not used locally
+val: /content/valid/images   # Not used locally
+test: Test_Data/images       # Local test path
+nc: 5
+names: ['Hello', 'Love_you', 'No', 'Thank_you', 'Yes']
+roboflow:
+  workspace: deepak-kfalr
+  project: english-sentences-pomoo-vwiwt
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deepak-kfalr/english-sentences-pomoo-vwiwt/dataset/1
